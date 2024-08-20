@@ -8,10 +8,12 @@ Prerequisite NPM packages:
 * `web3@^4.11.1`
 
 # Usage
-To deploy a new contract instance  
-* Replace the account address placeholder in `deploy.js`.
+First, run Ganache. You can download it [here](https://archive.trufflesuite.com/ganache/).
+
+To deploy a new contract instance:
+* Replace the DEPLOYER_ADDRESS placeholder in `.env`.
 * `node deploy.js`
 
-To interact with the contract instance  
-* Replace the account and contract address placeholders in `interact.js`.
+To interact with the contract instance:
+* Replace the USER_ADDRESS and CONTRACT_ADDRESS placeholders in `.env`.
 * `node interact.js`
