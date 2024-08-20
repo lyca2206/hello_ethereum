@@ -5,14 +5,14 @@ contract Hello {
     string message;
 
     constructor() {
-        message = "Hello, Hollywood!";
-    }
-
-    function setMessage(string memory _message) public {
-        message = _message;
+        message = "Hello, World!";
     }
 
     function getMessage() public view returns (string memory) {
         return message;
+    }
+
+    function setMessage(string memory _message) public {
+        message = _message;
     }
 }
