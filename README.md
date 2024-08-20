@@ -1,7 +1,7 @@
 Hello Ethereum
 --------------
 
-A 'Hello world' smart contract, referenced by a [blog post in my personal blog](https://sgerogia.github.io/Hello-world-Ganache).
+A 'Hello world' smart contract, referenced by a [blog post in Stelios Gerogiannakis's personal blog](https://sgerogia.github.io/Hello-world-Ganache).
 
 Prerequisite NPM packages:  
 * `solc@^0.8.6`
